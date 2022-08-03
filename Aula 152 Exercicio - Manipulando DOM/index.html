@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício Aula 152</title>
+    <script src="event.js"></script>
+  </head>
+  <body>
+    <form>
+      <p>
+        <label>Numero da residência: </label>
+        <input type="text" name="numero-casa" />
+      </p>
+      <p>
+        <label>Bairro: </label>
+        <input type="text" name="bairro" />
+      </p>
+      <p>
+        <label>Cidade: </label>
+        <input type="text" name="city" />
+      </p>
+      <p>
+        <label>Área da casa: </label>
+        <input type="text" name="area" />
+      </p>
+    </form>
+    <button onclick="adicionar()">Adicionar</button>
+
+    <ul id="lista"></ul>
+  </body>
+</html>
+
+<!--Adicionar uma lista de casas e precisamos de número da residência, bairro, cidade e área da casa
+-Devem ser exibidos para o usuário os quatro campos para que ele possa preencher as informações da casa, quando clicar no botão
+adicionar, a casa deve ser adicionada numa lista logo abaixo do formulário
+-Quando este elemento for adicionado na lista, ele deve vir com um botão remover onde, quando clicado, o elemento é removido da lista-->

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Classes 132</title>
+    <script src="event.js"></script>
+</head>
+<body>
+    <p>
+        <button onclick="clickMe()" type="button">Clique me</button>
+    </p>
+    <p>
+        Focus
+        <input onfocus="focusMe()" type="text" value="" name="focus-text"/><!--onfocus serve quando clica no input para escrever, ele executa a função -->
+    </p>
+    <p>
+        Blur
+        <input onblur="blurMe()" type="text" value="" name="blur-text"/><!--onfocus serve quando clica no input e clica fora, ele executa a função -->
+    </p>
+    <p>
+        Change
+        <input onchange= "changeMe()" type="text" value="" name="change-text"/><!--Quando altera o campo de input -->
+    </p>
+
+    <p onmouseover="overMe()">Passe o mouse sobre mim!</p><!--executa a função quando passa o mouse por cima -->
+</body>
+</html>
